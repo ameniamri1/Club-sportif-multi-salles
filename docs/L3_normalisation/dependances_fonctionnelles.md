@@ -1,0 +1,3 @@
+# Dépendances fonctionnelles
+
+À compléter.

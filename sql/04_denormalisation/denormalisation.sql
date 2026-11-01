@@ -1,0 +1,1 @@
+-- L3 : dénormalisation justifiée — à compléter.
