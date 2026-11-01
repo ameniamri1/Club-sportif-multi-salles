@@ -1,3 +1,3 @@
 # Résultats des requêtes
 
-À compléter avec les résultats obtenus sur la base.
+Les résultats seront ajoutés après exécution des requêtes sur la base, avec un lien vers les captures correspondantes.
