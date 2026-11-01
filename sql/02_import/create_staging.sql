@@ -1,1 +1,0 @@
--- L2 : création des tables de staging — à compléter.
