@@ -61,10 +61,6 @@ def explorer():
 
     emails = adherents.email.str.lower().str.replace(r"\s+", "", regex=True)
     renseignes = emails[emails.ne("")]
-    identites = pd.Series(
-        [f"email:{e}" if e else f"id:{i}" for e, i in zip(emails, adherents.id_adherent)],
-        index=adherents.id_adherent,
-    )
     afficher("Qualité des emails", {
         "vides": int(emails.eq("").sum()),
         "groupes_dupliques": int(renseignes.value_counts().gt(1).sum()),
@@ -87,12 +83,9 @@ def explorer():
     cours_absent = operations["_merge"].eq("left_only")
     montant_negatif = montant.lt(0)
     trop_tard = date_reservation.gt(debut)
-    # La définition du sujet inclut tous les statuts et accepte les montants nuls.
-    valide = ~cours_absent & montant.ge(0) & date_reservation.le(debut)
     motifs = pd.DataFrame({"cours_absent": cours_absent, "montant_negatif": montant_negatif, "apres_debut": trop_tard})
-    afficher("C2 : opérations invalides", int((~valide).sum()))
     afficher("Motifs individuels (recouvrements possibles)", motifs.sum())
-    afficher("Combinaisons des motifs invalides", motifs.loc[~valide].value_counts())
+    afficher("Combinaisons des anomalies détectées", motifs.loc[motifs.any(axis=1)].value_counts())
     afficher("Autres contrôles numériques", {
         "places_non_positives": int(places.le(0).sum()),
         "places_non_entieres": int(places.mod(1).ne(0).sum()),
@@ -103,33 +96,9 @@ def explorer():
         nombres = pd.to_numeric(cours[colonne], errors="coerce")
         afficher(f"Contrôles {colonne}", {"negatifs": int(nombres.lt(0).sum()), "nuls": int(nombres.eq(0).sum())})
 
-    operations["personne"] = operations.id_adherent.map(identites)
-    operations["montant_num"] = montant
-    operations["places_num"] = places
-    valides = operations.loc[valide].copy()
-    confirmees = valides.loc[valides.statut.eq("CONFIRMEE")]
-    afficher("Opérations valides, tous statuts", len(valides))
-    afficher("C1 : personnes distinctes", identites.nunique())
-    afficher("C3 : réservations valides confirmées", len(confirmees))
-    afficher("C4 : trois journées les plus chargées, opérations valides", pd.to_datetime(valides.date_reservation).dt.strftime("%Y-%m-%d").value_counts().head(3))
-    afficher("C5 : CA valide confirmé par site", confirmees.groupby("id_salle").montant_num.sum())
-    afficher("C6 : personnes sur plusieurs sites, tous statuts valides", int(valides.groupby("personne").id_salle.nunique().ge(2).sum()))
-    afficher("Comparaison C6 par identifiant source", int(valides.groupby("id_adherent").id_salle.nunique().ge(2).sum()))
-    capacites = pd.to_numeric(cours.set_index("id_cours").capacite)
-    excedents = confirmees.groupby("id_cours").places_num.sum().sub(capacites).dropna()
-    afficher("C7 : sur-réservation", {
-        "cours": int(excedents.gt(0).sum()),
-        "places_excedentaires": int(excedents[excedents.gt(0)].sum()),
-        "maximum_par_cours": int(excedents.max()),
-    })
-    groupes = valides.loc[valides.id_groupe.ne("")].groupby("id_groupe")
-    afficher("C8 : groupes valides sur plusieurs sites", int(groupes.id_salle.nunique().ge(2).sum()))
-    afficher("C9 : places valides confirmées par catégorie", confirmees.groupby("categorie").places_num.sum())
     afficher("Groupes", {
         "lignes_brutes_groupees": int(reservations.id_groupe.ne("").sum()),
         "groupes_bruts": reservations.loc[reservations.id_groupe.ne(""), "id_groupe"].nunique(),
-        "groupes_valides_plusieurs_identifiants_adherent": int(groupes.id_adherent.nunique().gt(1).sum()),
-        "groupes_valides_plusieurs_personnes": int(groupes.personne.nunique().gt(1).sum()),
     })
 
     repartition = salles.set_index("id_salle")[["ville", "role"]].copy()
@@ -137,14 +106,9 @@ def explorer():
         "adherents": adherents.id_salle.value_counts(),
         "cours": cours.id_salle.value_counts(),
         "reservations_rattachables": operations.id_salle.value_counts(),
-        "valides": valides.id_salle.value_counts(),
-        "valides_confirmees": confirmees.id_salle.value_counts(),
-        "ca_valide_confirme": confirmees.groupby("id_salle").montant_num.sum(),
     }.items():
         repartition[colonne] = valeurs.reindex(repartition.index, fill_value=0)
     afficher("Répartition par site du cours", repartition)
-    rattachements = adherents.set_index("id_adherent").id_salle
-    afficher("Réservations valides hors site de rattachement", int(valides.id_salle.ne(valides.id_adherent.map(rattachements)).sum()))
 
     # Vérification de conservation des fichiers après l'inspection.
     for fichier in fichiers:
