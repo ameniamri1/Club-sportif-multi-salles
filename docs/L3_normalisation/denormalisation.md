@@ -6,6 +6,8 @@ La campagne de 30 séries sur Oracle, pour le lot 6, donne une médiane de 0,07 
 
 ## Redondance introduite
 
+Le [schéma après dénormalisation](schema_apres_denormalisation.md) présente les trois tables L3, leurs clés et les colonnes recopiées, avec les diagrammes avant et après.
+
 Dans le modèle normalisé, `(id_lot, id_cours)` détermine `id_site` et `categorie` dans la table des ressources. Dans la copie dénormalisée, ces deux valeurs sont répétées pour chaque réservation du cours. Elles dépendent donc d'une autre clé que celle de l'opération : c'est une dénormalisation volontaire.
 
 Les noms, les emails et les coordonnées personnelles ne sont pas ajoutés à la copie de reporting. Elle garde seulement la clé de personne déjà utilisée pour les analyses.

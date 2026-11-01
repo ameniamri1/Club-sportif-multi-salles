@@ -41,6 +41,8 @@ Les doublons d'adhérent ne sont pas supprimés. USAGER_SOURCE conserve le lien 
 
 ## État de l'implémentation
 
+Le [schéma après dénormalisation](schema_apres_denormalisation.md) décrit la référence physique L3 et la copie de reporting ajoutée pour les mesures.
+
 Les tables du modèle L1 existent sur Oracle. Le chargement L2 alimente pour l'instant les tables brutes et ses requêtes passent par les vues. La décomposition décrite ici explique le modèle métier ; elle ne prétend pas que les tables USAGER, RESSOURCE et OPERATION ont déjà été alimentées.
 
 Pour mesurer l'effet d'une dénormalisation, le [script L3](../../sql/04_denormalisation/denormalisation.sql) prépare une référence physique limitée aux opérations et aux ressources. Leurs colonnes sont déjà typées et les clés de personne déjà calculées dans les deux versions. Cette référence permet de comparer une jointure normalisée à une copie de reporting, sans attribuer à la seule dénormalisation le coût des conversions des tables brutes.
