@@ -1,0 +1,103 @@
+
+Session modifié(e).
+
+BRUT_SALLE : 4 lignes, numéros continus, identifiants distincts.
+BRUT_USAGER : 20467 lignes, numéros continus, identifiants distincts.
+BRUT_RESSOURCE : 28571 lignes, numéros continus, identifiants distincts.
+BRUT_OPERATION : 365069 lignes, numéros continus, identifiants distincts.
+
+
+Procédure PL/SQL terminée.
+
+
+Procédure PL/SQL terminée.
+
+C1 - Nombre de personnes distinctes
+
+C1_PERSONNES
+------------
+       20416
+
+C2 - Nombre d'opérations invalides et répartition par motif
+
+C2_OPERATIONS_INVALIDES RESSOURCES_ABSENTES MONTANTS_NEGATIFS RESERVATIONS_TARDIVES
+----------------------- ------------------- ----------------- ---------------------
+                    553                 378                59                   116
+
+C3 - Nombre d'opérations valides confirmées
+
+C3_CONFIRMEES
+-------------
+       336092
+
+C4 - Journée comptant le plus d'opérations valides, tous statuts
+
+C4_JOUR    OPERATIONS
+---------- ----------
+2026-01-11      15885
+
+C5 - Chiffre d'affaires valide confirmé par site
+
+ID_SITE
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NOM
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+C5_CHIFFRE_AFFAIRES
+-------------------
+1                                                                                                                                                                                                                                                         
+Siège                                                                                                                                                                                                                                                     
+                  0
+
+2                                                                                                                                                                                                                                                         
+Site Villeurbanne                                                                                                                                                                                                                                         
+             452631
+
+3                                                                                                                                                                                                                                                         
+Site Vénissieux                                                                                                                                                                                                                                           
+             639813
+
+4                                                                                                                                                                                                                                                         
+Site Lyon                                                                                                                                                                                                                                                 
+             923962
+
+
+C6 - Personnes avec des opérations valides dans au moins deux sites
+
+C6_PERSONNES_MULTISITES
+-----------------------
+                  12258
+
+C7 - Ressources en sur-réservation
+
+C7_RESSOURCES_SURCHARGEES
+-------------------------
+                       38
+
+C8 - Groupes dont les opérations valides engagent au moins deux sites
+
+C8_GROUPES_MULTISITES
+---------------------
+                 1958
+
+C9 - Places valides confirmées par catégorie
+
+CATEGORIE
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+C9_PLACES_CONFIRMEES
+--------------------
+boxe                                                                                                                                                                                                                                                      
+               67734
+
+cross-training                                                                                                                                                                                                                                            
+               66600
+
+natation                                                                                                                                                                                                                                                  
+               67253
+
+pilates                                                                                                                                                                                                                                                   
+               66532
+
+yoga                                                                                                                                                                                                                                                      
+               67973
+
+

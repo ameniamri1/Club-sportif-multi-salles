@@ -94,4 +94,4 @@ Parmi les opérations valides, 23 481 concernent un cours situé hors du site de
 
 Au chargement, il faudra garder une trace des lignes rejetées ou corrigées et expliquer chaque traitement. Les fichiers ne donnent pas directement de relation d’héritage ni d’association réflexive. Pour répondre à cette partie de L1, il reste donc à définir une règle métier qui ait du sens pour le club.
 
-Les chiffres de ce rapport viennent du script Pandas. Ils serviront de référence pour comparer les résultats lorsque les requêtes SQL seront prêtes.
+Ces chiffres viennent de la première exploration des CSV. Les requêtes de `sql/03_queries/` permettront de les comparer aux résultats obtenus sur Oracle après le chargement.
