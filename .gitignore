@@ -15,5 +15,5 @@ __pycache__/
 *.py[cod]
 .venv/
 
-# Scripts SQL produits localement à partir des CSV
-/sql/02_import/generated/
+# Fichiers à plat reconstruits à partir des sources
+/data/derived/

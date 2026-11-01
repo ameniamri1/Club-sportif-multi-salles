@@ -1,0 +1,34 @@
+{
+  "taille_lot": 500,
+  "fichiers": {
+    "salles.csv": {
+      "sha256": "752b16e0488219972d6accdaaa28ece8cb917478d79df3b5791b50cc4150fea4",
+      "table": "BRUT_SALLE",
+      "lignes": 4,
+      "blocs": 1,
+      "script": "01_salles.sql"
+    },
+    "adherents.csv": {
+      "sha256": "7e592cedd58b02e3158e1acfc945977761bc5fed0bb4600d90d96ebe171c62ba",
+      "table": "BRUT_USAGER",
+      "lignes": 20467,
+      "blocs": 41,
+      "script": "02_adherents.sql"
+    },
+    "cours.csv": {
+      "sha256": "a97957c611b14815da4e689837e4ea5c9a0151f57d84ee817cbd54550ee0876a",
+      "table": "BRUT_RESSOURCE",
+      "lignes": 28571,
+      "blocs": 58,
+      "script": "03_cours.sql"
+    },
+    "reservations.csv": {
+      "sha256": "0541157af43af3a80b801a5ba8100c448df3c651764609d5d52605f51ef090c9",
+      "table": "BRUT_OPERATION",
+      "lignes": 365069,
+      "blocs": 731,
+      "script": "04_reservations.sql"
+    }
+  },
+  "libelle_lot": "CSV_G08_d3bd9e88655a55744388db29403dbdf157955fce17f85ca8ac9478e21d3ad1d4"
+}

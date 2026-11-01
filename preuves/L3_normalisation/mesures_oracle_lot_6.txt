@@ -1,0 +1,62 @@
+Sorties SQL Developer fournies par l'utilisateur — lot 6.
+
+Préparation après reprise :
+Copies L3 créées pour le lot 6 : 364516 opérations dans chaque version, aucun écart de contenu.
+Procédure PL/SQL terminée.
+Procédure PL/SQL terminée.
+
+Mesures — série 1 :
+Résultats identiques pour la requête Q06 adaptée aux copies L3.
+Un passage de chauffe effectué pour chaque version.
+Passage 1 : normalisé=.11 s ; dénormalisé=.07 s
+Passage 2 : normalisé=.08 s ; dénormalisé=.07 s
+Passage 3 : normalisé=.08 s ; dénormalisé=.06 s
+Passage 4 : normalisé=.08 s ; dénormalisé=.04 s
+Passage 5 : normalisé=.1 s ; dénormalisé=.04 s
+Médiane normalisée : .08 s
+Médiane dénormalisée : .06 s
+Résolution du chronomètre : 0,01 s. Un temps nul ne permet pas de conclure à un gain.
+Plan NORMALISE indisponible : ORA-00942: Table ou vue  "SYS"."V_$SQL" inexistante
+Conserver les temps ; les lectures de blocs restent à mesurer avec les droits nécessaires.
+Plan DENORMALISE indisponible : ORA-00942: Table ou vue  "SYS"."V_$SQL" inexistante
+Conserver les temps ; les lectures de blocs restent à mesurer avec les droits nécessaires.
+
+Procédure PL/SQL terminée.
+
+SEGMENT_NAME       SEGMENT_TYPE     BYTES     BLOCKS
+PK_L3_D_OPE        INDEX         11534336       1408
+PK_L3_N_OPE        INDEX         12582912       1536
+PK_L3_N_RES        INDEX          1048576        128
+L3_D_OPERATIONS    TABLE         38797312       4736
+L3_N_OPERATIONS    TABLE         33554432       4096
+L3_N_RESSOURCES    TABLE          2097152        256
+
+6 lignes sélectionnées.
+
+Mesures — série 2, relancement sur le lot 6 :
+Résultats identiques pour la requête Q06 adaptée aux copies L3.
+Un passage de chauffe effectué pour chaque version.
+Passage 1 : normalisé=.07 s ; dénormalisé=.04 s
+Passage 2 : normalisé=.06 s ; dénormalisé=.04 s
+Passage 3 : normalisé=.08 s ; dénormalisé=.04 s
+Passage 4 : normalisé=.06 s ; dénormalisé=.05 s
+Passage 5 : normalisé=.08 s ; dénormalisé=.04 s
+Médiane normalisée : .07 s
+Médiane dénormalisée : .04 s
+Résolution du chronomètre : 0,01 s. Un temps nul ne permet pas de conclure à un gain.
+Plan NORMALISE indisponible : ORA-00942: Table ou vue  "SYS"."V_$SQL" inexistante
+Conserver les temps ; les lectures de blocs restent à mesurer avec les droits nécessaires.
+Plan DENORMALISE indisponible : ORA-00942: Table ou vue  "SYS"."V_$SQL" inexistante
+Conserver les temps ; les lectures de blocs restent à mesurer avec les droits nécessaires.
+
+Procédure PL/SQL terminée.
+
+SEGMENT_NAME       SEGMENT_TYPE     BYTES     BLOCKS
+PK_L3_D_OPE        INDEX         11534336       1408
+PK_L3_N_OPE        INDEX         12582912       1536
+PK_L3_N_RES        INDEX          1048576        128
+L3_D_OPERATIONS    TABLE         38797312       4736
+L3_N_OPERATIONS    TABLE         33554432       4096
+L3_N_RESSOURCES    TABLE          2097152        256
+
+6 lignes sélectionnées.

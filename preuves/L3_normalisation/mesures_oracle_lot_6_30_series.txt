@@ -1,0 +1,239 @@
+Début des mesures : 2026-11-01 14:44:24 +00:00 ; lot=6 ; séries=30 ; cinq passages par série.
+Résultats identiques pour la requête Q06 adaptée aux copies L3.
+Série 1 : un passage de chauffe par version.
+Série 1, passage 1 : normalisé=.06 s ; dénormalisé=.04 s
+Série 1, passage 2 : normalisé=.07 s ; dénormalisé=.05 s
+Série 1, passage 3 : normalisé=.09 s ; dénormalisé=.05 s
+Série 1, passage 4 : normalisé=.07 s ; dénormalisé=.05 s
+Série 1, passage 5 : normalisé=.08 s ; dénormalisé=.04 s
+Série 1 : médiane normalisée=.07 s ; médiane dénormalisée=.05 s
+Série 2 : un passage de chauffe par version.
+Série 2, passage 1 : normalisé=.09 s ; dénormalisé=.05 s
+Série 2, passage 2 : normalisé=.07 s ; dénormalisé=.05 s
+Série 2, passage 3 : normalisé=.09 s ; dénormalisé=.04 s
+Série 2, passage 4 : normalisé=.07 s ; dénormalisé=.05 s
+Série 2, passage 5 : normalisé=.06 s ; dénormalisé=.05 s
+Série 2 : médiane normalisée=.07 s ; médiane dénormalisée=.05 s
+Série 3 : un passage de chauffe par version.
+Série 3, passage 1 : normalisé=.07 s ; dénormalisé=.05 s
+Série 3, passage 2 : normalisé=.06 s ; dénormalisé=.05 s
+Série 3, passage 3 : normalisé=.09 s ; dénormalisé=.06 s
+Série 3, passage 4 : normalisé=.1 s ; dénormalisé=.07 s
+Série 3, passage 5 : normalisé=.08 s ; dénormalisé=.06 s
+Série 3 : médiane normalisée=.08 s ; médiane dénormalisée=.06 s
+Série 4 : un passage de chauffe par version.
+Série 4, passage 1 : normalisé=.08 s ; dénormalisé=.04 s
+Série 4, passage 2 : normalisé=.06 s ; dénormalisé=.05 s
+Série 4, passage 3 : normalisé=.07 s ; dénormalisé=.05 s
+Série 4, passage 4 : normalisé=.1 s ; dénormalisé=.05 s
+Série 4, passage 5 : normalisé=.07 s ; dénormalisé=.04 s
+Série 4 : médiane normalisée=.07 s ; médiane dénormalisée=.05 s
+Série 5 : un passage de chauffe par version.
+Série 5, passage 1 : normalisé=.08 s ; dénormalisé=.07 s
+Série 5, passage 2 : normalisé=.1 s ; dénormalisé=.06 s
+Série 5, passage 3 : normalisé=.09 s ; dénormalisé=.04 s
+Série 5, passage 4 : normalisé=.08 s ; dénormalisé=.05 s
+Série 5, passage 5 : normalisé=.07 s ; dénormalisé=.04 s
+Série 5 : médiane normalisée=.08 s ; médiane dénormalisée=.05 s
+Série 6 : un passage de chauffe par version.
+Série 6, passage 1 : normalisé=.06 s ; dénormalisé=.04 s
+Série 6, passage 2 : normalisé=.07 s ; dénormalisé=.04 s
+Série 6, passage 3 : normalisé=.06 s ; dénormalisé=.04 s
+Série 6, passage 4 : normalisé=.07 s ; dénormalisé=.04 s
+Série 6, passage 5 : normalisé=.07 s ; dénormalisé=.05 s
+Série 6 : médiane normalisée=.07 s ; médiane dénormalisée=.04 s
+Série 7 : un passage de chauffe par version.
+Série 7, passage 1 : normalisé=.06 s ; dénormalisé=.04 s
+Série 7, passage 2 : normalisé=.07 s ; dénormalisé=.04 s
+Série 7, passage 3 : normalisé=.06 s ; dénormalisé=.04 s
+Série 7, passage 4 : normalisé=.09 s ; dénormalisé=.05 s
+Série 7, passage 5 : normalisé=.06 s ; dénormalisé=.04 s
+Série 7 : médiane normalisée=.06 s ; médiane dénormalisée=.04 s
+Série 8 : un passage de chauffe par version.
+Série 8, passage 1 : normalisé=.07 s ; dénormalisé=.05 s
+Série 8, passage 2 : normalisé=.06 s ; dénormalisé=.05 s
+Série 8, passage 3 : normalisé=.07 s ; dénormalisé=.04 s
+Série 8, passage 4 : normalisé=.08 s ; dénormalisé=.07 s
+Série 8, passage 5 : normalisé=.09 s ; dénormalisé=.09 s
+Série 8 : médiane normalisée=.07 s ; médiane dénormalisée=.05 s
+Série 9 : un passage de chauffe par version.
+Série 9, passage 1 : normalisé=.07 s ; dénormalisé=.07 s
+Série 9, passage 2 : normalisé=.07 s ; dénormalisé=.06 s
+Série 9, passage 3 : normalisé=.07 s ; dénormalisé=.05 s
+Série 9, passage 4 : normalisé=.07 s ; dénormalisé=.04 s
+Série 9, passage 5 : normalisé=.07 s ; dénormalisé=.05 s
+Série 9 : médiane normalisée=.07 s ; médiane dénormalisée=.05 s
+Série 10 : un passage de chauffe par version.
+Série 10, passage 1 : normalisé=.06 s ; dénormalisé=.06 s
+Série 10, passage 2 : normalisé=.07 s ; dénormalisé=.05 s
+Série 10, passage 3 : normalisé=.06 s ; dénormalisé=.05 s
+Série 10, passage 4 : normalisé=.07 s ; dénormalisé=.07 s
+Série 10, passage 5 : normalisé=.06 s ; dénormalisé=.08 s
+Série 10 : médiane normalisée=.06 s ; médiane dénormalisée=.06 s
+Série 11 : un passage de chauffe par version.
+Série 11, passage 1 : normalisé=.08 s ; dénormalisé=.04 s
+Série 11, passage 2 : normalisé=.11 s ; dénormalisé=.04 s
+Série 11, passage 3 : normalisé=.06 s ; dénormalisé=.05 s
+Série 11, passage 4 : normalisé=.08 s ; dénormalisé=.05 s
+Série 11, passage 5 : normalisé=.06 s ; dénormalisé=.05 s
+Série 11 : médiane normalisée=.08 s ; médiane dénormalisée=.05 s
+Série 12 : un passage de chauffe par version.
+Série 12, passage 1 : normalisé=.09 s ; dénormalisé=.04 s
+Série 12, passage 2 : normalisé=.07 s ; dénormalisé=.04 s
+Série 12, passage 3 : normalisé=.07 s ; dénormalisé=.04 s
+Série 12, passage 4 : normalisé=.11 s ; dénormalisé=.04 s
+Série 12, passage 5 : normalisé=.08 s ; dénormalisé=.06 s
+Série 12 : médiane normalisée=.08 s ; médiane dénormalisée=.04 s
+Série 13 : un passage de chauffe par version.
+Série 13, passage 1 : normalisé=.08 s ; dénormalisé=.05 s
+Série 13, passage 2 : normalisé=.07 s ; dénormalisé=.05 s
+Série 13, passage 3 : normalisé=.07 s ; dénormalisé=.04 s
+Série 13, passage 4 : normalisé=.07 s ; dénormalisé=.05 s
+Série 13, passage 5 : normalisé=.06 s ; dénormalisé=.04 s
+Série 13 : médiane normalisée=.07 s ; médiane dénormalisée=.05 s
+Série 14 : un passage de chauffe par version.
+Série 14, passage 1 : normalisé=.07 s ; dénormalisé=.05 s
+Série 14, passage 2 : normalisé=.09 s ; dénormalisé=.04 s
+Série 14, passage 3 : normalisé=.08 s ; dénormalisé=.04 s
+Série 14, passage 4 : normalisé=.07 s ; dénormalisé=.05 s
+Série 14, passage 5 : normalisé=.07 s ; dénormalisé=.05 s
+Série 14 : médiane normalisée=.07 s ; médiane dénormalisée=.05 s
+Série 15 : un passage de chauffe par version.
+Série 15, passage 1 : normalisé=.06 s ; dénormalisé=.04 s
+Série 15, passage 2 : normalisé=.11 s ; dénormalisé=.05 s
+Série 15, passage 3 : normalisé=.08 s ; dénormalisé=.05 s
+Série 15, passage 4 : normalisé=.06 s ; dénormalisé=.04 s
+Série 15, passage 5 : normalisé=.07 s ; dénormalisé=.04 s
+Série 15 : médiane normalisée=.07 s ; médiane dénormalisée=.04 s
+Série 16 : un passage de chauffe par version.
+Série 16, passage 1 : normalisé=.07 s ; dénormalisé=.04 s
+Série 16, passage 2 : normalisé=.06 s ; dénormalisé=.05 s
+Série 16, passage 3 : normalisé=.06 s ; dénormalisé=.05 s
+Série 16, passage 4 : normalisé=.07 s ; dénormalisé=.04 s
+Série 16, passage 5 : normalisé=.08 s ; dénormalisé=.05 s
+Série 16 : médiane normalisée=.07 s ; médiane dénormalisée=.05 s
+Série 17 : un passage de chauffe par version.
+Série 17, passage 1 : normalisé=.07 s ; dénormalisé=.05 s
+Série 17, passage 2 : normalisé=.08 s ; dénormalisé=.05 s
+Série 17, passage 3 : normalisé=.07 s ; dénormalisé=.06 s
+Série 17, passage 4 : normalisé=.09 s ; dénormalisé=.06 s
+Série 17, passage 5 : normalisé=.07 s ; dénormalisé=.04 s
+Série 17 : médiane normalisée=.07 s ; médiane dénormalisée=.05 s
+Série 18 : un passage de chauffe par version.
+Série 18, passage 1 : normalisé=.07 s ; dénormalisé=.04 s
+Série 18, passage 2 : normalisé=.07 s ; dénormalisé=.05 s
+Série 18, passage 3 : normalisé=.07 s ; dénormalisé=.04 s
+Série 18, passage 4 : normalisé=.07 s ; dénormalisé=.05 s
+Série 18, passage 5 : normalisé=.08 s ; dénormalisé=.04 s
+Série 18 : médiane normalisée=.07 s ; médiane dénormalisée=.04 s
+Série 19 : un passage de chauffe par version.
+Série 19, passage 1 : normalisé=.09 s ; dénormalisé=.07 s
+Série 19, passage 2 : normalisé=.08 s ; dénormalisé=.04 s
+Série 19, passage 3 : normalisé=.08 s ; dénormalisé=.04 s
+Série 19, passage 4 : normalisé=.08 s ; dénormalisé=.06 s
+Série 19, passage 5 : normalisé=.07 s ; dénormalisé=.06 s
+Série 19 : médiane normalisée=.08 s ; médiane dénormalisée=.06 s
+Série 20 : un passage de chauffe par version.
+Série 20, passage 1 : normalisé=.08 s ; dénormalisé=.05 s
+Série 20, passage 2 : normalisé=.1 s ; dénormalisé=.06 s
+Série 20, passage 3 : normalisé=.07 s ; dénormalisé=.04 s
+Série 20, passage 4 : normalisé=.07 s ; dénormalisé=.06 s
+Série 20, passage 5 : normalisé=.06 s ; dénormalisé=.05 s
+Série 20 : médiane normalisée=.07 s ; médiane dénormalisée=.05 s
+Série 21 : un passage de chauffe par version.
+Série 21, passage 1 : normalisé=.06 s ; dénormalisé=.05 s
+Série 21, passage 2 : normalisé=.08 s ; dénormalisé=.05 s
+Série 21, passage 3 : normalisé=.07 s ; dénormalisé=.06 s
+Série 21, passage 4 : normalisé=.06 s ; dénormalisé=.06 s
+Série 21, passage 5 : normalisé=.09 s ; dénormalisé=.04 s
+Série 21 : médiane normalisée=.07 s ; médiane dénormalisée=.05 s
+Série 22 : un passage de chauffe par version.
+Série 22, passage 1 : normalisé=.07 s ; dénormalisé=.07 s
+Série 22, passage 2 : normalisé=.09 s ; dénormalisé=.05 s
+Série 22, passage 3 : normalisé=.08 s ; dénormalisé=.05 s
+Série 22, passage 4 : normalisé=.06 s ; dénormalisé=.04 s
+Série 22, passage 5 : normalisé=.08 s ; dénormalisé=.04 s
+Série 22 : médiane normalisée=.08 s ; médiane dénormalisée=.05 s
+Série 23 : un passage de chauffe par version.
+Série 23, passage 1 : normalisé=.1 s ; dénormalisé=.05 s
+Série 23, passage 2 : normalisé=.11 s ; dénormalisé=.06 s
+Série 23, passage 3 : normalisé=.09 s ; dénormalisé=.05 s
+Série 23, passage 4 : normalisé=.08 s ; dénormalisé=.04 s
+Série 23, passage 5 : normalisé=.07 s ; dénormalisé=.06 s
+Série 23 : médiane normalisée=.09 s ; médiane dénormalisée=.05 s
+Série 24 : un passage de chauffe par version.
+Série 24, passage 1 : normalisé=.08 s ; dénormalisé=.07 s
+Série 24, passage 2 : normalisé=.07 s ; dénormalisé=.05 s
+Série 24, passage 3 : normalisé=.06 s ; dénormalisé=.04 s
+Série 24, passage 4 : normalisé=.1 s ; dénormalisé=.04 s
+Série 24, passage 5 : normalisé=.09 s ; dénormalisé=.05 s
+Série 24 : médiane normalisée=.08 s ; médiane dénormalisée=.05 s
+Série 25 : un passage de chauffe par version.
+Série 25, passage 1 : normalisé=.06 s ; dénormalisé=.05 s
+Série 25, passage 2 : normalisé=.06 s ; dénormalisé=.04 s
+Série 25, passage 3 : normalisé=.08 s ; dénormalisé=.05 s
+Série 25, passage 4 : normalisé=.07 s ; dénormalisé=.06 s
+Série 25, passage 5 : normalisé=.07 s ; dénormalisé=.05 s
+Série 25 : médiane normalisée=.07 s ; médiane dénormalisée=.05 s
+Série 26 : un passage de chauffe par version.
+Série 26, passage 1 : normalisé=.08 s ; dénormalisé=.07 s
+Série 26, passage 2 : normalisé=.08 s ; dénormalisé=.05 s
+Série 26, passage 3 : normalisé=.07 s ; dénormalisé=.04 s
+Série 26, passage 4 : normalisé=.07 s ; dénormalisé=.05 s
+Série 26, passage 5 : normalisé=.08 s ; dénormalisé=.06 s
+Série 26 : médiane normalisée=.08 s ; médiane dénormalisée=.05 s
+Série 27 : un passage de chauffe par version.
+Série 27, passage 1 : normalisé=.07 s ; dénormalisé=.05 s
+Série 27, passage 2 : normalisé=.06 s ; dénormalisé=.04 s
+Série 27, passage 3 : normalisé=.08 s ; dénormalisé=.04 s
+Série 27, passage 4 : normalisé=.07 s ; dénormalisé=.04 s
+Série 27, passage 5 : normalisé=.07 s ; dénormalisé=.06 s
+Série 27 : médiane normalisée=.07 s ; médiane dénormalisée=.04 s
+Série 28 : un passage de chauffe par version.
+Série 28, passage 1 : normalisé=.08 s ; dénormalisé=.05 s
+Série 28, passage 2 : normalisé=.07 s ; dénormalisé=.05 s
+Série 28, passage 3 : normalisé=.08 s ; dénormalisé=.04 s
+Série 28, passage 4 : normalisé=.07 s ; dénormalisé=.04 s
+Série 28, passage 5 : normalisé=.08 s ; dénormalisé=.05 s
+Série 28 : médiane normalisée=.08 s ; médiane dénormalisée=.05 s
+Série 29 : un passage de chauffe par version.
+Série 29, passage 1 : normalisé=.07 s ; dénormalisé=.04 s
+Série 29, passage 2 : normalisé=.08 s ; dénormalisé=.06 s
+Série 29, passage 3 : normalisé=.06 s ; dénormalisé=.05 s
+Série 29, passage 4 : normalisé=.08 s ; dénormalisé=.05 s
+Série 29, passage 5 : normalisé=.06 s ; dénormalisé=.05 s
+Série 29 : médiane normalisée=.07 s ; médiane dénormalisée=.05 s
+Série 30 : un passage de chauffe par version.
+Série 30, passage 1 : normalisé=.09 s ; dénormalisé=.04 s
+Série 30, passage 2 : normalisé=.07 s ; dénormalisé=.04 s
+Série 30, passage 3 : normalisé=.07 s ; dénormalisé=.04 s
+Série 30, passage 4 : normalisé=.07 s ; dénormalisé=.05 s
+Série 30, passage 5 : normalisé=.07 s ; dénormalisé=.04 s
+Série 30 : médiane normalisée=.07 s ; médiane dénormalisée=.04 s
+Bilan : 30 séries, 150 mesures par version, hors chauffe.
+Médiane de tous les passages normalisés : .07 s
+Médiane de tous les passages dénormalisés : .05 s
+Médiane des médianes normalisées : .07 s
+Médiane des médianes dénormalisées : .05 s
+Selon les médianes par série, dénormalisé plus rapide : 29 ; égalité : 1 ; plus lent : 0
+Baisse relative des médianes de tous les passages : 28.57 %
+Résolution du chronomètre : 0,01 s. Un temps nul ne permet pas de conclure à un gain.
+Plan NORMALISE indisponible : ORA-00942: Table ou vue  "SYS"."V_$SQL" inexistante
+Conserver les temps ; les lectures de blocs restent à mesurer avec les droits nécessaires.
+Plan DENORMALISE indisponible : ORA-00942: Table ou vue  "SYS"."V_$SQL" inexistante
+Conserver les temps ; les lectures de blocs restent à mesurer avec les droits nécessaires.
+
+
+Procédure PL/SQL terminée.
+
+
+SEGMENT_NAME                                                                                                                     SEGMENT_TYPE            BYTES     BLOCKS
+-------------------------------------------------------------------------------------------------------------------------------- ------------------ ---------- ----------
+PK_L3_D_OPE                                                                                                                      INDEX                11534336       1408
+PK_L3_N_OPE                                                                                                                      INDEX                12582912       1536
+PK_L3_N_RES                                                                                                                      INDEX                 1048576        128
+L3_D_OPERATIONS                                                                                                                  TABLE                38797312       4736
+L3_N_OPERATIONS                                                                                                                  TABLE                33554432       4096
+L3_N_RESSOURCES                                                                                                                  TABLE                 2097152        256
+
+6 lignes sélectionnées. 

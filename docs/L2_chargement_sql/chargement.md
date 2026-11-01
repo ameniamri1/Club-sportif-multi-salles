@@ -16,13 +16,13 @@ Le dossier `generated/` contient la version qui a permis de charger le lot 6 sur
 
 ## 1. Générer les fichiers SQL
 
-Les fichiers corrigés sont déjà disponibles sur le poste de travail. Pour les reconstruire sur un autre poste, lancer cette commande depuis la racine du dépôt :
+Les fichiers corrigés sont inclus dans le dépôt : un nouvel utilisateur peut directement passer à l'étape 2 dans SQL Developer. Python n'est nécessaire que pour les reconstruire. Pour préparer une nouvelle génération, utiliser un autre dossier de sortie, car le générateur refuse d'écraser un dossier existant :
 
 ```powershell
-python run/generer_import_sql.py
+python run/generer_import_sql.py --sortie sql/02_import/nouvelle_generation
 ```
 
-Le dossier `sql/02_import/generated/` contient alors :
+Le dossier versionné `sql/02_import/generated/` contient :
 
 ```text
 00_initialiser_lot.sql
@@ -35,7 +35,7 @@ charger_tout.sql
 manifest.json
 ```
 
-Chaque fichier de données regroupe ses insertions dans des blocs `FORALL`. `manifest.json` permet de retrouver les fichiers sources utilisés et leurs effectifs. Le dossier généré est ignoré par Git, puisque son contenu peut être reconstruit.
+Chaque fichier de données regroupe ses insertions dans des blocs `FORALL`. `manifest.json` permet de retrouver les fichiers sources utilisés et leurs effectifs. Ces huit fichiers sont versionnés pour permettre le chargement après un clonage, sans étape de génération locale.
 
 La génération s'arrête si un fichier est illisible, si son en-tête ou son nombre de champs est incorrect, ou si une valeur dépasse la taille prévue. Le dossier de sortie est créé une fois les quatre fichiers traités. Les valeurs sont conservées telles quelles, y compris les espaces et les montants négatifs.
 

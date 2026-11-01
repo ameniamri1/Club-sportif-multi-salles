@@ -1,0 +1,251 @@
+
+Session modifié(e).
+
+
+Session modifié(e).
+
+BRUT_SALLE : 4 lignes, numéros continus, identifiants distincts.
+BRUT_USAGER : 20467 lignes, numéros continus, identifiants distincts.
+BRUT_RESSOURCE : 28571 lignes, numéros continus, identifiants distincts.
+BRUT_OPERATION : 365069 lignes, numéros continus, identifiants distincts.
+
+
+Procédure PL/SQL terminée.
+
+
+Procédure PL/SQL terminée.
+
+Q01 - Activité confirmée de chaque site, y compris les sites sans réservation
+
+ID_SALLE NOM                          RESERVATIONS     PLACES CHIFFRE_AFFAIRES
+-------- ---------------------------- ------------ ---------- ----------------
+1        Siège                                   0          0                0
+2        Site Villeurbanne                   75432      75432           452631
+3        Site Vénissieux                    106634     106634           639813
+4        Site Lyon                          154026     154026           923962
+
+4 lignes sélectionnées. 
+
+Ecoulé : 00:00:01.040
+Q02 - Les vingt séances ayant au moins vingt places valides confirmées les plus demandées
+
+ID_COURS   LIBELLE                          ID_SALLE   CAPACITE PLACES_CONFIRMEES
+---------- -------------------------------- -------- ---------- -----------------
+25520      Cours boxe 25520                 3                30                33
+3524       Cours yoga 3524                  4                30                33
+361        Cours natation 361               2                30                33
+27472      Cours yoga 27472                 3                30                32
+641        Cours pilates 641                4                30                32
+4161       Cours yoga 4161                  4                28                31
+11369      Cours cross-training 11369       4                27                30
+22609      Cours yoga 22609                 4                29                30
+668        Cours natation 668               4                27                30
+23311      Cours cross-training 23311       4                26                29
+6191       Cours pilates 6191               2                30                29
+11785      Cours cross-training 11785       4                30                28
+12428      Cours cross-training 12428       4                26                28
+12479      Cours pilates 12479              2                30                28
+17508      Cours yoga 17508                 4                30                28
+21074      Cours cross-training 21074       4                29                28
+23865      Cours cross-training 23865       3                27                28
+24122      Cours boxe 24122                 3                30                28
+28369      Cours natation 28369             4                30                28
+4132       Cours cross-training 4132        2                30                28
+
+20 lignes sélectionnées. 
+
+Ecoulé : 00:00:01.147
+Q03 - Personnes sans aucune réservation valide, aperçu des vingt premières
+
+0 lignes sélectionnées. 
+
+Ecoulé : 00:00:02.976
+Q04 - Personnes ayant une réservation valide confirmée dans chacune des trois salles, aperçu de vingt
+
+CLE_PERSONNE                                                                    
+--------------------------------------------------------------------------------
+EMAIL:adam.andre3158@example.org
+EMAIL:adam.benali2275@example.org
+EMAIL:adam.benali2428@example.org
+EMAIL:adam.bernard12171@example.org
+EMAIL:adam.bertrand1269@example.org
+EMAIL:adam.bertrand1408@example.org
+EMAIL:adam.bertrand19216@example.org
+EMAIL:adam.bertrand5617@example.org
+EMAIL:adam.blanc3387@example.org
+EMAIL:adam.bonnet7504@example.org
+EMAIL:adam.bonnet8419@example.org
+EMAIL:adam.chen11931@example.org
+EMAIL:adam.chen1194@example.org
+EMAIL:adam.chen16661@example.org
+EMAIL:adam.chen3452@example.org
+EMAIL:adam.david15801@example.org
+EMAIL:adam.david18696@example.org
+EMAIL:adam.david8570@example.org
+EMAIL:adam.diallo11769@example.org
+EMAIL:adam.diallo13789@example.org
+
+20 lignes sélectionnées. 
+
+Ecoulé : 00:00:04.195
+Q05 - Trois premiers rangs des séances par site selon les places valides confirmées
+
+ID_SITE        RANG ID_COURS   LIBELLE                              PLACES
+-------- ---------- ---------- -------------------------------- ----------
+2                 1 361        Cours natation 361                       33
+2                 2 6191       Cours pilates 6191                       29
+2                 3 12479      Cours pilates 12479                      28
+2                 3 4132       Cours cross-training 4132                28
+2                 3 7780       Cours pilates 7780                       28
+3                 1 25520      Cours boxe 25520                         33
+3                 2 27472      Cours yoga 27472                         32
+3                 3 23865      Cours cross-training 23865               28
+3                 3 24122      Cours boxe 24122                         28
+4                 1 3524       Cours yoga 3524                          33
+4                 2 641        Cours pilates 641                        32
+4                 3 4161       Cours yoga 4161                          31
+
+12 lignes sélectionnées. 
+
+Ecoulé : 00:00:01.239
+Q06 - Réservations et taux d'annulation par site et catégorie, sur les opérations valides
+
+ID_SITE  CATEGORIE          RESERVATIONS ANNULATIONS TAUX_ANNULATION_PCT
+-------- ------------------ ------------ ----------- -------------------
+2        boxe                      16079        1212                7.54
+2        cross-training            15926        1204                7.56
+2        natation                  16801        1263                7.52
+2        pilates                   16620        1305                7.85
+2        yoga                      16231        1241                7.65
+3        boxe                      23908        1860                7.78
+3        cross-training            22847        1800                7.88
+3        natation                  22599        1782                7.89
+3        pilates                   22792        1768                7.76
+3        yoga                      23534        1836                 7.8
+4        boxe                      33440        2621                7.84
+4        cross-training            33432        2601                7.78
+4        natation                  33609        2711                8.07
+4        pilates                   32674        2481                7.59
+4        yoga                      34024        2739                8.05
+
+15 lignes sélectionnées. 
+
+Ecoulé : 00:00:01.140
+Q07 - Vingt premières séances de janvier 2026 ayant encore des places après réservations confirmées valides
+
+ID_COURS   LIBELLE                          ID_SALLE DEBUT               PLACES_RESTANTES
+---------- -------------------------------- -------- ------------------- ----------------
+14132      Cours pilates 14132              4        2026-01-01 08:30:00                3
+5582       Cours cross-training 5582        4        2026-01-01 09:00:00                5
+28220      Cours natation 28220             4        2026-01-01 09:15:00               11
+24548      Cours yoga 24548                 4        2026-01-01 09:45:00                7
+7364       Cours cross-training 7364        4        2026-01-01 10:00:00               11
+15368      Cours natation 15368             2        2026-01-01 10:30:00                7
+8713       Cours yoga 8713                  4        2026-01-01 10:45:00               11
+11826      Cours pilates 11826              4        2026-01-01 12:00:00               10
+21346      Cours boxe 21346                 4        2026-01-01 13:45:00                7
+25080      Cours boxe 25080                 2        2026-01-01 14:15:00               12
+9662       Cours yoga 9662                  4        2026-01-01 14:15:00               13
+20023      Cours natation 20023             2        2026-01-01 14:30:00                9
+23492      Cours boxe 23492                 4        2026-01-01 14:30:00                3
+18096      Cours boxe 18096                 4        2026-01-01 15:15:00                6
+25774      Cours pilates 25774              2        2026-01-01 16:30:00                8
+4314       Cours natation 4314              4        2026-01-01 17:00:00                2
+1200       Cours natation 1200              2        2026-01-01 18:15:00               10
+14246      Cours yoga 14246                 3        2026-01-01 18:15:00                6
+5112       Cours boxe 5112                  4        2026-01-01 18:15:00                7
+17347      Cours yoga 17347                 3        2026-01-01 18:30:00               11
+
+20 lignes sélectionnées. 
+
+Ecoulé : 00:00:01.188
+Q08 - Vingt groupes aux montants confirmés les plus élevés, avec réservations valides dans plusieurs sites
+
+ID_GROUPE         SITES    SEANCES     PLACES MONTANT_CONFIRME
+------------ ---------- ---------- ---------- ----------------
+G00565                3          4          4               42
+G01481                3          4          4               41
+G02639                3          4          4               41
+G00173                3          4          4               40
+G00371                3          4          4               40
+G02249                3          4          4               40
+G01857                3          4          4               39
+G01927                3          4          4               39
+G02370                3          4          4               39
+G02485                3          4          4               39
+G02695                3          4          4               39
+G00694                3          4          4               38
+G01060                3          4          4               38
+G01509                3          4          4               38
+G01679                3          4          4               38
+G01837                3          4          4               38
+G02177                3          4          4               38
+G02367                3          4          4               38
+G01174                3          4          4               37
+G01899                3          4          4               37
+
+20 lignes sélectionnées. 
+
+Ecoulé : 00:00:00.091
+Q09 - Vingt personnes dépassant la dépense moyenne des personnes ayant une réservation valide confirmée
+
+CLE_PERSONNE                                                                     RESERVATIONS    MONTANT
+-------------------------------------------------------------------------------- ------------ ----------
+EMAIL:amine.nicolas19694@example.org                                                       30        229
+EMAIL:ali.silva3062@example.org                                                            36        225
+EMAIL:amine.rousseau4248@example.org                                                       33        217
+EMAIL:jules.richard210@example.org                                                         28        217
+EMAIL:amine.laurent5277@example.org                                                        29        215
+EMAIL:arthur.martinez7377@example.org                                                      31        213
+EMAIL:hugo.chen14744@example.org                                                           33        212
+EMAIL:anna.lambert20131@example.org                                                        29        211
+EMAIL:nina.petit9690@example.org                                                           32        211
+EMAIL:lina.durand11266@example.org                                                         26        209
+EMAIL:karim.thomas1623@example.org                                                         31        208
+EMAIL:louise.silva6705@example.org                                                         33        208
+EMAIL:noah.thomas19606@example.org                                                         33        207
+EMAIL:ali.haddad5483@example.org                                                           30        206
+EMAIL:manon.roussel9243@example.org                                                        29        205
+EMAIL:nina.dubois223@example.org                                                           29        205
+EMAIL:alice.david9459@example.org                                                          29        204
+EMAIL:lucas.blanc17511@example.org                                                         33        203
+EMAIL:ismael.chen13086@example.org                                                         29        202
+EMAIL:paul.thomas11875@example.org                                                         28        201
+
+20 lignes sélectionnées. 
+
+Ecoulé : 00:00:02.857
+Q10 - Chiffre d'affaires mensuel et cumul selon la date des réservations valides confirmées
+
+MOIS    CHIFFRE_AFFAIRES      CUMUL ECART_MOIS_PRECEDENT
+------- ---------------- ---------- --------------------
+2024-11            20727      20727                     
+2024-12            65227      85954                44500
+2025-01            89165     175119                23938
+2025-02            80189     255308                -8976
+2025-03            88633     343941                 8444
+2025-04            84649     428590                -3984
+2025-05            85269     513859                  620
+2025-06            83150     597009                -2119
+2025-07            87384     684393                 4234
+2025-08            86263     770656                -1121
+2025-09            81763     852419                -4500
+2025-10            86828     939247                 5065
+2025-11            81768    1021015                -5060
+2025-12            68025    1089040               -13743
+2026-01           142138    1231178                74113
+2026-02            52323    1283501               -89815
+2026-03            73476    1356977                21153
+2026-04            81004    1437981                 7528
+2026-05            83287    1521268                 2283
+2026-06            82152    1603420                -1135
+2026-07            84054    1687474                 1902
+2026-08            84254    1771728                  200
+2026-09            81564    1853292                -2690
+2026-10            80922    1934214                 -642
+2026-11            61099    1995313               -19823
+2026-12            21093    2016406               -40006
+
+26 lignes sélectionnées. 
+
+Ecoulé : 00:00:01.222
